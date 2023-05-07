@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background-color: powderblue;
+}
+h2{
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li { 
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+	li a:hover:not(.active) {
+	background-color: #111;
+}
+.active {
+	background-color: #4CAF50;
+}
+.Credit {
+	background-color: orange;
+	text-align: center;
+	max-width: 300px;
+	margin: auto;
+	padding: 2%;
+	margin-top: 20px;
+}
+.Increase {
+	background-color: yellow;
+	text-align: center;
+	max-width: 300px;
+	margin: auto;
+	padding: 2%;
+	margin-top: 20px;
+}
